@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className='text-5xl font-bold'>Play, Stream, Bet All Sports, One Arena!</h1>
             <p className='text-2xl text-white'>Ignite Your Passion in Our All-in-One Web3 Playground - From eSports Tournaments to Global Events, Unleash Your Talent and Experience the Ultimate Fusion of Gaming and Sports</p>
             <div className='flex flex-row gap-4'>
-              <button className='btn bg-[#FF992D] text-white'>Play Now</button>
+              <Link href="/tournaments" className='btn bg-[#FF992D] text-white'>Play Now</Link>
               <button className='btn btn-ghost'>Learn More</button>
             </div>
           </div>
